@@ -1,0 +1,2 @@
+#!/bin/execlineb -s0
+s6-svscan-orig -s $@

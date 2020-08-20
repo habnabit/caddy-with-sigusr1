@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+with-contenv
+importas -i CADDYFILE CADDYFILE
+caddy reload --config $CADDYFILE --adapter caddyfile
